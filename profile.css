@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* .logo{
+    width: 200px;
+    margin-left: 8%;
+} */
+nav{
+    background: #edf2fd;
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    
+    top: 0;
+}
+nav ul{
+    position: relative;
+    right: 7%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+}
+nav ul li a:hover{
+    color: #d82e3f;
+}
+.details{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background: #edf2fd;
+}
+#details{
+    position: absolute;
+    top: 40%;
+    margin: 80px 0 0 10%;
+    
+}
+.details h1{
+  
+    font-size: 60px;
+    color: #474646;
+    margin-bottom:20px ;
+}
+span{
+    color: #d82e3f;
+}
+.details p{
+    color: #555;
+    line-height: 22px;
+}
+
+.details a{
+background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+        }
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .boy{
+    left: 45%;
+}
+
+.readMore{
+    position: relative;
+    top: 20px;
+    border: 0;
+background: #34495e;
+color: #fff;
+padding: 12px 25px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+.exceptNav h1{
+color: #555;
+position: absolute;
+top: 40px;
+}
+.exceptNav p{
+    color: #555;
+    position: absolute;
+    top: 130px;
+    }
+#About{
+
+    
+    /* position:relative; */
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background: #f4f7fd;
+ 
+}
+#aboutContent{
+    position: relative;
+    top: 85px;
+}
+#About h1{
+    position: absolute;
+    right: 35%;
+    font-size: 50px;
+    /* display:inline-block ; */
+    
+}
+#About p{
+    line-height: 40px;
+    margin: 0 4% 0 50%;
+    text-align: justify;
+    font-size: 25px;
+}
+.imgAbout{
+    width: 670px;
+    height:370px;
+    position: absolute;
+    bottom: 90px;
+    left: 250px;
+     }
+
+     .imgAbout img{
+        height: 100%;
+        position: absolute;
+        right: 50%;
+    
+      
+    }
+
+
+#Skills{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f4f7fd;
+ 
+}
+#Skills h1{
+    font-size: 50px;
+    position: absolute;
+    left: 30%;
+}
+#skillContent{
+    position: relative;
+    top: 85px;
+}
+#Education{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f4f7fd;
+ 
+}
+#Education h1{
+    position: absolute;
+    left: 30%;
+    font-size: 50px;
+    
+
+}
+#eduContent{
+    position: relative;
+    top: 120px;
+}
+#eduContent h3{
+    color: #555;
+    font-size: 25px;
+}
+#eduContent h4{
+    padding-top: 5px;
+    color: #555;
+    font-size: 20px;
+}
+#btech{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+#btech p{
+    position: relative;
+    top: 10px;
+}
+#hse{
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    
+}
+#hse p{
+    position: relative;
+    top: 10px;
+}
+
+#eduContent{
+    position: relative;
+    top: 85px;
+}
+#Experience{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f4f7fd;
+ 
+}
+#Experience h1{
+    font-size: 50px;
+    position: absolute;
+    left: 30%;
+}
+#expContent{
+    position: relative;
+    top: 85px;
+}
+#expContent ul{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    font-size: 22px;
+} 
+#expContent ul li{
+    color: #5e5b5b;
+    margin-bottom: 35px;
+}
+#Contact{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f4f7fd;
+ 
+}
+#Contact h1{
+    position: absolute;
+    left: 30%;
+    font-size: 50px;
+}
+#contactContent{
+    position: relative;
+    top: 85px;
+   
+}
+
+.form{
+    position: relative;
+   top: 120px;
+    
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px;
+    outline: none;
+    color: #555;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 4px 1px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  } 
+
+/* skills */
+    .skills-section{
+    padding-top: 20px;
+    }
+
+    .skills-container{
+    position: absolute;
+    top: 140px;
+    left: 6%;
+    display: grid;
+    grid-tempLate-columns: repeat(5, 1fr);
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    grid-gap:1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+    }
+    .skills-box{
+    padding: 1rem;
+    color: #000;
+    cursor:pointer;
+    }
+/*     
+    .skills-box:hover .skills-img{
+    transform: translateX(-20px);
+    } */
+    
+    .skills-title{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    }
+     
+    .skills-icons{
+    width:45px;
+    /* z-index:1; */
+    }
+
+    .skills-title h3{
+    color: #333;
+    margin-top: 0.5rem;
+    }
+
+    /* footer  */
+    .footer{
+        background:rgb(39, 38, 44);
+        padding:2px 0px;
+        font-family: 'Play', sans-serif;
+        text-align:center;
+        }
+        
+        .footer .row{
+        width:100%;
+        margin:1% 0%;
+        padding:0.6% 0%;
+        color:gray;
+        font-size:0.8em;
+        }
+        
+        .footer .row a{
+        text-decoration:none;
+        color:gray;
+        transition:0.5s;
+        }
+        
+        .footer .row a:hover{
+        color:#fff;
+        }
+        
+        .footer .row ul{
+        width:100%;
+        }
+        
+        .footer .row ul li{
+        display:inline-block;
+        margin:0px 30px;
+        }
+        
+        .footer .row a i{
+        font-size:2em;
+        margin:0% 1%;
+        }
+        
+       .footer img{
+        height: 28px;
+        margin-right: 20px;
+
+       }
